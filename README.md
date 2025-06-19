@@ -29,11 +29,13 @@ pip install numpy pandas matplotlib seaborn scikit-learn imbalanced-learn stream
 Kemudian buat virtual environment jika diperlukan agar dependensi terisolasi.
 
 ## Business Dashboard
-Dashboard bisnis telah dibuat menggunakan Looker Studio untuk memvisualisasikan insight dari data seperti segmentasi mahasiswa, kinerja akademik, dan prediksi dropout. (Link dashboard belum tersedia saat ini.)
+Dashboard bisnis telah dibuat menggunakan Looker Studio dengan judul **"Dashboard Prediksi Dropout & Kesuksesan Akademik Mahasiswa Edutech"**. Dashboard ini menampilkan insight dari data seperti segmentasi mahasiswa, kinerja akademik, dan prediksi dropout.  
+Anda dapat mengakses dashboard tersebut melalui link berikut:  
+[Dashboard Prediksi Dropout & Kesuksesan Akademik Mahasiswa Edutech](https://lookerstudio.google.com/reporting/e9b0f321-717f-46b2-bb3d-9544280dabcc)
 
 ## Menjalankan Sistem Machine Learning
-Prototype sistem machine learning dapat dijalankan melalui link berikut, yang menyediakan aplikasi web berbasis Streamlit untuk memprediksi dropout mahasiswa:
-https://dropout-predictor-ulfasyabania.streamlit.app/
+Prototype sistem machine learning dapat dijalankan melalui link berikut, yang menyediakan aplikasi web berbasis Streamlit untuk memprediksi dropout mahasiswa:  
+[Prototype Dropout Predictor](https://dropout-predictor-ulfasyabania.streamlit.app/)
 
 Untuk menjalankan prototype secara lokal, pastikan semua dependensi sudah terinstal, kemudian jalankan:
 
