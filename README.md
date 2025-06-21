@@ -84,12 +84,19 @@ Anda dapat mengakses dashboard tersebut melalui link berikut:
 [Dashboard Prediksi Dropout & Kesuksesan Akademik Mahasiswa Edutech](https://lookerstudio.google.com/reporting/e9b0f321-717f-46b2-bb3d-9544280dabcc)
 
 ## Menjalankan Sistem Machine Learning
-Prototype sistem machine learning dapat dijalankan melalui link berikut, yang menyediakan aplikasi web berbasis Streamlit untuk memprediksi dropout mahasiswa:  
+
+Prototype sistem machine learning telah dibuat menggunakan Streamlit. Sistem ini digunakan untuk memprediksi apakah seorang mahasiswa berpotensi mengalami dropout berdasarkan data akademik dan demografis. Anda dapat menjalankan prototipe ini dengan dua cara:
+
+### 1. Akses Prototype Secara Online
+
+Anda dapat menguji sistem secara langsung melalui link berikut:
 [Prototype Dropout Predictor](https://dropout-predictor-ulfasyabania.streamlit.app/)
 
-Untuk menjalankan prototype secara lokal, pastikan semua dependensi sudah terinstal, kemudian jalankan:
+### 2. Menjalankan Prototype Secara Lokal
 
-```
+Pastikan Anda telah melakukan setup environment seperti yang dijelaskan pada bagian **Setup Environment**. Setelah itu, buka terminal di direktori root proyek yang memuat file `app.py`, kemudian jalankan perintah di bawah ini:
+   
+```bash
 streamlit run app.py
 ```
 
