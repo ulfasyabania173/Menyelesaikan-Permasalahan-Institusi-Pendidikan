@@ -20,13 +20,63 @@ Perusahaan Edutech ini berfokus pada penyediaan solusi pendidikan berbasis tekno
 [Predict Students Dropout and Academic Success](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success)
 
 **Setup Environment:**  
-Pastikan Anda telah menginstal library berikut:
+Berikut adalah instruksi setup environment menggunakan Shell/Terminal yang diperlukan untuk menjalankan seluruh kode dalam proyek. Langkah‑langkah berikut memastikan bahwa semua library dan dependensi telah terinstal dengan benar di virtual environment yang terisolasi:
 
-```
-pip install numpy pandas matplotlib seaborn scikit-learn imbalanced-learn streamlit
+### **Setup Environment – Shell/Terminal**
+
+1. **Instal Pipenv**  
+   Jika belum menginstal pipenv secara global, jalankan perintah berikut:
+   ```bash
+   pip install pipenv
+   ```
+
+2. **Buat Virtual Environment dan Instal Dependensi**  
+   Di direktori proyek (pastikan file `requirements.txt` sudah ada), jalankan perintah:
+   ```bash
+   pipenv install
+   ```
+   Perintah ini akan membuat virtual environment baru dan menginstal dependensi yang didefinisikan (atau membuat file Pipfile jika belum ada).
+
+3. **Aktifkan Virtual Environment**  
+   Setelah proses instalasi selesai, aktifkan environment dengan:
+   ```bash
+   pipenv shell
+   ```
+
+4. **Instal Dependensi dari File requirements.txt**  
+   Untuk memastikan semua library, termasuk:
+   - **pandas**
+   - **numpy**
+   - **matplotlib**
+   - **seaborn**
+   - **scikit-learn**
+   - **scipy**
+   - **imbalanced-learn**
+   - **streamlit**
+
+   terinstal dengan tepat, jalankan:
+   ```bash
+   pip install -r requirements.txt
+   ```
+---
+
+### **Proses Lengkap:**
+
+```bash
+# 1. Instal pipenv (jika belum diinstal)
+pip install pipenv
+
+# 2. Di dalam direktori proyek, buat virtual environment dan instal dependensi
+pipenv install
+
+# 3. Aktifkan virtual environment
+pipenv shell
+
+# 4. Instal semua library dari requirements.txt
+pip install -r requirements.txt
 ```
 
-Kemudian buat virtual environment jika diperlukan agar dependensi terisolasi.
+---
 
 ## Business Dashboard
 Dashboard bisnis telah dibuat menggunakan Looker Studio dengan judul **"Dashboard Prediksi Dropout & Kesuksesan Akademik Mahasiswa Edutech"**. Dashboard ini menampilkan insight dari data seperti segmentasi mahasiswa, kinerja akademik, dan prediksi dropout.  
